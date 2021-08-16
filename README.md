@@ -1,6 +1,8 @@
 # EnrichedE2E
 Enriched version of the E2E dataset introduced in the INLG 2021 paper "Enriching the E2E Dataset"
 
+*Authors: Thiago Castro Ferreira, Helena Vaz, Brian Davis and Adriana Pagano*
+
 ## Description
 
 The original E2E dataset is a dataset for training end-to-end, data-driven natural language generation systems in the restaurant domain, bigger than existing, frequently used datasets in the area.
