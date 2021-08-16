@@ -1,0 +1,2356 @@
+<?xml version="1.0" ?>
+<entries>
+  <entry eid="Id27" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="6">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The coffee shop @ Blue Spice is based near Crowne Plaza Hotel and has a high customer rating of 5 out of 5.</text>
+      <template>The __EATTYPE__ @ __NAME__ is based near __NEAR__ and has a high customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __EATTYPE__ @ __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] base near __NEAR__ and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a high customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="7">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The Blue Spice @ coffee shop, near Crowne Plaza Hotel, has a customer rating of 5 out of 5.</text>
+      <template>The __NAME__ @ __EATTYPE__ , near __NEAR__ , has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ , near __NEAR__ , VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="8">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+        </sentence>
+      </structuring>
+      <text>If you want a coffee shop rated 5 out of 5 pick Blue Spice. It is located near Crowne Plaza Hotel.</text>
+      <template>If you want a __EATTYPE__ rated __CUSTOMER_RATING__ pick __NAME__ . __NAME__ is located near __NEAR__ .</template>
+      <lexicalization>If you VP[Mood=Ind|Tense=Pres|VerbForm=Fin] want DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] rate __CUSTOMER_RATING__ VP[Mood=Imp|VerbForm=Fin] pick __NAME__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id28" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+      <input attribute="near" tag="__NEAR__" value="Burger King"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="9">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>Burger King is near the coffee shop @ Blue Spice which has an average customer rating.</text>
+      <template>__NEAR__ is near the __EATTYPE__ @ __NAME__ which has an __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>__NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near DT[Definite=Def|PronType=Art] the __EATTYPE__ @ __NAME__ which VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="10">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+        </sentence>
+      </structuring>
+      <text>The Blue Spice @ coffee shop near Burger King has good customer ratings with excellent food and service, with a lovely atmosphere.</text>
+      <template>The __NAME__ @ __EATTYPE__ near __NEAR__ has good customer ratings with excellent food and service , with a lovely atmosphere .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have good customer ratings with excellent food and service , with DT[Definite=Ind|PronType=Art] a lovely atmosphere .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="11">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+        </sentence>
+      </structuring>
+      <text>Average customer rating coffee shop include Blue Spice near Burger King.</text>
+      <template>__CUSTOMER_RATING__ customer rating __EATTYPE__ include __NAME__ near __NEAR__ .</template>
+      <lexicalization>__CUSTOMER_RATING__ customer rating __EATTYPE__ VP[Mood=Imp|VerbForm=Fin] include __NAME__ near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="12">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+        </sentence>
+      </structuring>
+      <text>The Blue Spice @ coffee shop located near Burger King has been rated average by customers.</text>
+      <template>The __NAME__ @ __EATTYPE__ located near __NEAR__ has been rated __CUSTOMER_RATING__ by customers .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have VP[Tense=Past|VerbForm=Part] be VP[Tense=Past|VerbForm=Part|Voice=Pass] rate CUSTOMER_RATING by customers .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="13">
+      <structuring>
+        <sentence/>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>Located near Burger King is a coffee shop named Blue Spice that has an average customer rating.</text>
+      <template>Located near __NEAR__ is a __EATTYPE__ named __NAME__ that has an __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] locate near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ that VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="14">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>Near Burger King is a coffee shop called Blue Spice which has an average customer rating.</text>
+      <template>Near __NEAR__ is a __EATTYPE__ called __NAME__ which has an __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ which VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id7" ref="15">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>Near Burger King is the Blue Spice @ coffee shop.  It has average customer ratings.</text>
+      <template>Near __NEAR__ is the __NAME__ @ __EATTYPE__ . __NAME__ has __CUSTOMER_RATING__ customer ratings .</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have __CUSTOMER_RATING__ customer ratings .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id29" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+      <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="16">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+        </sentence>
+      </structuring>
+      <text>Crowne Plaza Hotel has a coffee shop nearby with an average customer rating called Blue Spice.</text>
+      <template>__NEAR__ has a __EATTYPE__ nearby with an __CUSTOMER_RATING__ customer rating called __NAME__ .</template>
+      <lexicalization>__NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __EATTYPE__ nearby with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id30" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="21">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The pub @ Blue Spice is based near Crowne Plaza Hotel and has a high customer rating of 5 out of 5.</text>
+      <template>The __EATTYPE__ @ __NAME__ is based near __NEAR__ and has a high customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __EATTYPE__ @ __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] base near __NEAR__ and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a high customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="22">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The Blue Spice @ pub, near Crowne Plaza Hotel, has a customer rating of 5 out of 5.</text>
+      <template>The __NAME__ @ __EATTYPE__ , near __NEAR__ , has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ , near __NEAR__ , VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="23">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+        </sentence>
+      </structuring>
+      <text>If you want a pub rated 5 out of 5 pick Blue Spice. It is located near Crowne Plaza Hotel.</text>
+      <template>If you want a __EATTYPE__ rated __CUSTOMER_RATING__ pick __NAME__ . __NAME__ is located near __NEAR__ .</template>
+      <lexicalization>If you VP[Mood=Ind|Tense=Pres|VerbForm=Fin] want DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] rate __CUSTOMER_RATING__ VP[Mood=Imp|VerbForm=Fin] pick __NAME__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id31" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+      <input attribute="near" tag="__NEAR__" value="Burger King"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="24">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>Burger King is near the pub @ Blue Spice which has an average customer rating.</text>
+      <template>__NEAR__ is near the __EATTYPE__ @ __NAME__ which has an __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>__NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near DT[Definite=Def|PronType=Art] the __EATTYPE__ @ __NAME__ which VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="25">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+        </sentence>
+      </structuring>
+      <text>The Blue Spice @ pub near Burger King has good customer ratings with excellent food and service, with a lovely atmosphere.</text>
+      <template>The __NAME__ @ __EATTYPE__ near __NEAR__ has good customer ratings with excellent food and service , with a lovely atmosphere .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have good customer ratings with excellent food and service , with DT[Definite=Ind|PronType=Art] a lovely atmosphere .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="26">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+        </sentence>
+      </structuring>
+      <text>Average customer rating pub include Blue Spice near Burger King.</text>
+      <template>__CUSTOMER_RATING__ customer rating __EATTYPE__ include __NAME__ near __NEAR__ .</template>
+      <lexicalization>__CUSTOMER_RATING__ customer rating __EATTYPE__ VP[Mood=Imp|VerbForm=Fin] include __NAME__ near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="27">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+        </sentence>
+      </structuring>
+      <text>The Blue Spice @ pub located near Burger King has been rated average by customers.</text>
+      <template>The __NAME__ @ __EATTYPE__ located near __NEAR__ has been rated __CUSTOMER_RATING__ by customers .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have VP[Tense=Past|VerbForm=Part] be VP[Tense=Past|VerbForm=Part|Voice=Pass] rate CUSTOMER_RATING by customers .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="28">
+      <structuring>
+        <sentence/>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>Located near Burger King is a pub named Blue Spice that has an average customer rating.</text>
+      <template>Located near __NEAR__ is a __EATTYPE__ named __NAME__ that has an __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] locate near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ that VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="29">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>Near Burger King is a pub called Blue Spice which has an average customer rating.</text>
+      <template>Near __NEAR__ is a __EATTYPE__ called __NAME__ which has an __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ which VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id7" ref="30">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>Near Burger King is the Blue Spice @ pub.  It has average customer ratings.</text>
+      <template>Near __NEAR__ is the __NAME__ @ __EATTYPE__ . __NAME__ has __CUSTOMER_RATING__ customer ratings .</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have __CUSTOMER_RATING__ customer ratings .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id32" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+      <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="31">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+        </sentence>
+      </structuring>
+      <text>Crowne Plaza Hotel has a pub nearby with an average customer rating called Blue Spice.</text>
+      <template>__NEAR__ has a __EATTYPE__ nearby with an __CUSTOMER_RATING__ customer rating called __NAME__ .</template>
+      <lexicalization>__NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __EATTYPE__ nearby with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id33" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Clowns"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="230">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+        </sentence>
+      </structuring>
+      <text>Good customer score of 3 out of 5 @ Clowns  coffee shop is a recommended place to eat. Located near the All Bar One.</text>
+      <template>Good customer score of __CUSTOMER_RATING__ @ __NAME__s coffee is a recommended place to eat . Located near the __NEAR__ .</template>
+      <lexicalization>Good customer score of __CUSTOMER_RATING__ @ __NAMEs__ coffee VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a VP[Tense=Past|VerbForm=Part] recommend place to VP[VerbForm=Inf] eat . VP[Tense=Past|VerbForm=Part] locate near DT[Definite=Def|PronType=Art] the __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="231">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+        </sentence>
+        <sentence/>
+      </structuring>
+      <text>Near All Bar One there is a coffee shop named Clowns and it is rated 3 out of 5.</text>
+      <template>Near __NEAR__ there is a __EATTYPE__ named __NAME__ and __NAME__ is rated __CUSTOMER_RATING__ .</template>
+      <lexicalization>Near __NEAR__ there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ and __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] rate CUSTOMER_RATING .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="232">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+      </structuring>
+      <text>Near All Bar One the Clowns @ coffee shop is rated 3 out of 5.</text>
+      <template>Near __NEAR__ the __NAME__ @ __EATTYPE__ is rated __CUSTOMER_RATING__ .</template>
+      <lexicalization>Near __NEAR__ DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] rate CUSTOMER_RATING .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="233">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+        </sentence>
+      </structuring>
+      <text>A coffee shop called the Clowns has a customer rating of 3 out of 5 and is located near All Bar One.</text>
+      <template>A __EATTYPE__ called the __NAME__ has a customer rating of __CUSTOMER_RATING__ and is located near __NEAR__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="234">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+        </sentence>
+      </structuring>
+      <text>For a 3 out of 5 star customer rated coffee shop near All Bar One, Clowns is relatively expensive.</text>
+      <template>For a __CUSTOMER_RATING__ star customer rated __EATTYPE__ near __NEAR__ , __NAME__ is relatively __PRICERANGE__ .</template>
+      <lexicalization>For DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ star customer VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ near __NEAR__ , __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be relatively __PRICERANGE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="235">
+      <structuring>
+        <sentence/>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Located near All Bar One, The Clowns @ coffee shop has a customer rating of 3 out of 5.</text>
+      <template>Located near __NEAR__ , The __NAME__ @ __EATTYPE__ has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] locate near __NEAR__ , DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id34" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Clowns"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="236">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The coffee shop @ Clowns that is near Crowne Plaza Hotel has ratings of 5 out of 5.</text>
+      <template>The __EATTYPE__ @ __NAME__ that is near __NEAR__ has ratings of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __EATTYPE__ @ __NAME__ that VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have ratings of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="237">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+        </sentence>
+      </structuring>
+      <text>Crowne Plaza Hotel is a popular coffee shop in Clowns.</text>
+      <template>__NEAR__ is a popular __EATTYPE__ in __NAME__ .</template>
+      <lexicalization>__NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a popular __EATTYPE__ in __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="238">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The coffee shop @ Clowns is near Crowne Plaza Hotel and has a customer rating of 5 out of 5.</text>
+      <template>The __EATTYPE__ @ __NAME__ is near __NEAR__ and has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __EATTYPE__ @ __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="239">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Near Crowne Plaza Hotel is a coffee shop named Clowns that proudly boasts a high customer rating of 5 out of 5.</text>
+      <template>Near __NEAR__ is a __EATTYPE__ named __NAME__ that proudly boasts a high customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ that proudly VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] boast DT[Definite=Ind|PronType=Art] a high customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="240">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Found near Crowne Plaza Hotel, Clowns is a coffee shop with a customer rating of 5 out of 5.</text>
+      <template>Found near __NEAR__ , __NAME__ is a __EATTYPE__ with a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>VP[Mood=Ind|Tense=Past|VerbForm=Fin] find near __NEAR__ , __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ with DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="241">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+        </sentence>
+        <sentence/>
+      </structuring>
+      <text>Crowne Plaza Hotel is a coffee shop in Clowns with a rating 5 out of 5.</text>
+      <template>__NEAR__ is a __EATTYPE__ in __NAME__ with a rating __CUSTOMER_RATING__ .</template>
+      <lexicalization>__NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ in __NAME__ with DT[Definite=Ind|PronType=Art] a rating CUSTOMER_RATING .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id7" ref="242">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+        </sentence>
+      </structuring>
+      <text>5 out of 5 rated Clowns @ coffee shop is located near Crowne Plaza Hotel.</text>
+      <template>__CUSTOMER_RATING__ rated __NAME__ @ __EATTYPE__ is located near __NEAR__ .</template>
+      <lexicalization>__CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id8" ref="243">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+        </sentence>
+      </structuring>
+      <text>Near Crowne Plaza Hotel there is a coffee shop with a 5 out of 5 rating.  It's called Clowns.</text>
+      <template>Near __NEAR__ there is a __EATTYPE__ with a __CUSTOMER_RATING__ rating . It ' s called __NAME__ .</template>
+      <lexicalization>Near __NEAR__ there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ rating . It ' VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] call __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id9" ref="244">
+      <structuring>
+        <sentence/>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Located near Crowne Plaza Hotel, The Clowns @ coffee shop has a customer rating of 5 out of 5.</text>
+      <template>Located near __NEAR__ , The __NAME__ @ __EATTYPE__ has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] locate near __NEAR__ , DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id10" ref="245">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The coffee shop @ Clowns is near Crowne Plaza Hotel and has a customer rating of 5 out of 5.</text>
+      <template>The __EATTYPE__ @ __NAME__ is near __NEAR__ and has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __EATTYPE__ @ __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id11" ref="246">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+        </sentence>
+      </structuring>
+      <text>For a coffee shop with a 5 out of 5 rating, check out Clowns near Crowne Plaza Hotel.</text>
+      <template>For a __EATTYPE__ with a __CUSTOMER_RATING__ rating , check out __NAME__ near __NEAR__ .</template>
+      <lexicalization>For DT[Definite=Ind|PronType=Art] a __EATTYPE__ with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ rating , VP[Mood=Imp|VerbForm=Fin] check out __NAME__ near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id35" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Clowns"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="248">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+        </sentence>
+      </structuring>
+      <text>Good customer score of 3 out of 5 @ Clowns  pub is a recommended place to eat. Located near the All Bar One.</text>
+      <template>Good customer score of __CUSTOMER_RATING__ @ C __EATTYPE__ is a recommended place to eat . Located near the __NEAR__ .</template>
+      <lexicalization>Good customer score of __CUSTOMER_RATING__ @ C __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a VP[Tense=Past|VerbForm=Part] recommend place to VP[VerbForm=Inf] eat . VP[Tense=Past|VerbForm=Part] locate near DT[Definite=Def|PronType=Art] the __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="249">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+        </sentence>
+        <sentence/>
+      </structuring>
+      <text>Near All Bar One there is a pub named Clowns and it is rated 3 out of 5.</text>
+      <template>Near __NEAR__ there is a __EATTYPE__ named __NAME__ and __NAME__ is rated __CUSTOMER_RATING__ .</template>
+      <lexicalization>Near __NEAR__ there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ and __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] rate CUSTOMER_RATING .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="250">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+      </structuring>
+      <text>Near All Bar One the Clowns @ pub is rated 3 out of 5.</text>
+      <template>Near __NEAR__ the __NAME__ @ __EATTYPE__ is rated __CUSTOMER_RATING__ .</template>
+      <lexicalization>Near __NEAR__ DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] rate CUSTOMER_RATING .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="251">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+        </sentence>
+      </structuring>
+      <text>A pub called the Clowns has a customer rating of 3 out of 5 and is located near All Bar One.</text>
+      <template>A __EATTYPE__ called the __NAME__ has a customer rating of __CUSTOMER_RATING__ and is located near __NEAR__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="252">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+        </sentence>
+      </structuring>
+      <text>For a 3 out of 5 star customer rated pub near All Bar One, Clowns is relatively expensive.</text>
+      <template>For a __CUSTOMER_RATING__ star customer rated __EATTYPE__ near __NEAR__ , __NAME__ is relatively __PRICERANGE__ .</template>
+      <lexicalization>For DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ star customer VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ near __NEAR__ , __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be relatively __PRICERANGE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="253">
+      <structuring>
+        <sentence/>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Located near All Bar One, The Clowns @ pub has a customer rating of 3 out of 5.</text>
+      <template>Located near __NEAR__ , The __NAME__ @ __EATTYPE__ has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] locate near __NEAR__ , DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id36" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Clowns"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="254">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The pub @ Clowns that is near Crowne Plaza Hotel has ratings of 5 out of 5.</text>
+      <template>The __EATTYPE__ @ __NAME__ that is near __NEAR__ has ratings of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __EATTYPE__ @ __NAME__ that VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have ratings of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="255">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+        </sentence>
+      </structuring>
+      <text>Crowne Plaza Hotel is a popular pub in Clowns.</text>
+      <template>__NEAR__ is a popular __EATTYPE__ in __NAME__ .</template>
+      <lexicalization>__NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a popular __EATTYPE__ in __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="256">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The pub @ Clowns is near Crowne Plaza Hotel and has a customer rating of 5 out of 5.</text>
+      <template>The __EATTYPE__ @ __NAME__ is near __NEAR__ and has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __EATTYPE__ @ __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="257">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Near Crowne Plaza Hotel is a pub named Clowns that proudly boasts a high customer rating of 5 out of 5.</text>
+      <template>Near __NEAR__ is a __EATTYPE__ named __NAME__ that proudly boasts a high customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ that proudly VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] boast DT[Definite=Ind|PronType=Art] a high customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="258">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Found near Crowne Plaza Hotel, Clowns is a pub with a customer rating of 5 out of 5.</text>
+      <template>Found near __NEAR__ , __NAME__ is a __EATTYPE__ with a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>VP[Mood=Ind|Tense=Past|VerbForm=Fin] find near __NEAR__ , __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ with DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="259">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+        </sentence>
+        <sentence/>
+      </structuring>
+      <text>Crowne Plaza Hotel is a pub in Clowns with a rating 5 out of 5.</text>
+      <template>__NEAR__ is a __EATTYPE__ in __NAME__ with a rating __CUSTOMER_RATING__ .</template>
+      <lexicalization>__NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ in __NAME__ with DT[Definite=Ind|PronType=Art] a rating CUSTOMER_RATING .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id7" ref="260">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+        </sentence>
+      </structuring>
+      <text>5 out of 5 rated Clowns @ pub is located near Crowne Plaza Hotel.</text>
+      <template>__CUSTOMER_RATING__ rated __NAME__ @ __EATTYPE__ is located near __NEAR__ .</template>
+      <lexicalization>__CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id8" ref="261">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+        </sentence>
+      </structuring>
+      <text>Near Crowne Plaza Hotel there is a pub with a 5 out of 5 rating.  It's called Clowns.</text>
+      <template>Near __NEAR__ there is a __EATTYPE__ with a __CUSTOMER_RATING__ rating . It ' s called __NAME__ .</template>
+      <lexicalization>Near __NEAR__ there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ rating . It ' VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] call __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id9" ref="262">
+      <structuring>
+        <sentence/>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Located near Crowne Plaza Hotel, The Clowns @ pub has a customer rating of 5 out of 5.</text>
+      <template>Located near __NEAR__ , The __NAME__ @ __EATTYPE__ has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] locate near __NEAR__ , DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id10" ref="263">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The pub @ Clowns is near Crowne Plaza Hotel and has a customer rating of 5 out of 5.</text>
+      <template>The __EATTYPE__ @ __NAME__ is near __NEAR__ and has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __EATTYPE__ @ __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id11" ref="264">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="5 out of 5"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Crowne Plaza Hotel"/>
+        </sentence>
+      </structuring>
+      <text>For a pub with a 5 out of 5 rating, check out Clowns near Crowne Plaza Hotel.</text>
+      <template>For a __EATTYPE__ with a __CUSTOMER_RATING__ rating , check out __NAME__ near __NEAR__ .</template>
+      <lexicalization>For DT[Definite=Ind|PronType=Art] a __EATTYPE__ with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ rating , VP[Mood=Imp|VerbForm=Fin] check out __NAME__ near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id37" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cocum"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+      <input attribute="near" tag="__NEAR__" value="Burger King"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="266">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+        </sentence>
+      </structuring>
+      <text>Near Burger King there is a highly rated coffee shop named Cocum.</text>
+      <template>Near __NEAR__ there is a __CUSTOMER_RATING__ rated __EATTYPE__ named __NAME__ .</template>
+      <lexicalization>Near __NEAR__ there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="267">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+        </sentence>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+        </sentence>
+      </structuring>
+      <text>There is a coffee shop named Cocum located near Burger King. This coffee shop has a high customer rating.</text>
+      <template>There is a __EATTYPE__ named __NAME__ located near __NEAR__ . This __EATTYPE__ has a __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ __ .__ DT[Number=Sing|PronType=Dem] this __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id38" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cocum"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+      <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="268">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+        </sentence>
+      </structuring>
+      <text>coffee shop located near Café Sicilia called Cocum with a high customer rating</text>
+      <template>__EATTYPE__ located near __NEAR__ called __NAME__ with a __CUSTOMER_RATING__ customer rating</template>
+      <lexicalization>__EATTYPE__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ VP[Tense=Past|VerbForm=Part] call __NAME__ with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="269">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+        </sentence>
+      </structuring>
+      <text>Near Café Sicilia is a high rated coffee shop called Cocum</text>
+      <template>Near __NEAR__ is a __CUSTOMER_RATING__ rated __EATTYPE__ called __NAME__</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="270">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+        </sentence>
+      </structuring>
+      <text>coffee shop @ Cocum has a high customer rating and is located near Café Sicilia.</text>
+      <template>__EATTYPE__ @ __NAME__ has a __CUSTOMER_RATING__ customer rating and is located near __NEAR__ .</template>
+      <lexicalization>__EATTYPE__ @ __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="271">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+        </sentence>
+        <sentence/>
+      </structuring>
+      <text>There is a coffee shop named Cocum located near Café Sicilia. The customer rating is high.</text>
+      <template>There is a __EATTYPE__ named __NAME__ located near __NEAR__ . The customer rating is __CUSTOMER_RATING__ .</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ . DT[Definite=Def|PronType=Art] the customer rating VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be __CUSTOMER___ RATING .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="272">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+        </sentence>
+      </structuring>
+      <text>For a coffee shop with high customer rating near Café Sicilia, try Cocum.</text>
+      <template>For a __EATTYPE__ with __CUSTOMER_RATING__ customer rating near __NEAR__ , try __NAME__ .</template>
+      <lexicalization>For DT[Definite=Ind|PronType=Art] a __EATTYPE__ with __CUSTOMER_RATING__ customer rating near __NEAR__ , VP[Mood=Imp|VerbForm=Fin] try __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="273">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+        </sentence>
+      </structuring>
+      <text>There is a high rated coffee shop named Cocum near Café Sicilia.</text>
+      <template>There is a __CUSTOMER_RATING__ rated __EATTYPE__ named __NAME__ near __NEAR__ .</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id39" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cocum"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+      <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="274">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+        </sentence>
+      </structuring>
+      <text>Cocum, a coffee shop with a low customer rating, is near Café Sicilia.</text>
+      <template>__NAME__ , a __EATTYPE__ with a __CUSTOMER_RATING__ customer rating , is near __NEAR__ .</template>
+      <lexicalization>__NAME__ , DT[Definite=Ind|PronType=Art] a __EATTYPE__ with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating , VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id40" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cocum"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+      <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="275">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+        </sentence>
+      </structuring>
+      <text>Cocum is a coffee shop near Express by Holiday Inn with food at low prices.</text>
+      <template>__NAME__ is a __EATTYPE__ near __NEAR__ with food at __CUSTOMER_RATING__ prices .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ near __NEAR__ with food at __CUSTOMER_RATING__ prices .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="276">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+      </structuring>
+      <text>If you are looking for a meal at a bargain price in the Express by Holiday Inn area, visit Cocum @ coffee shop.</text>
+      <template>If you are looking for a meal at a bargain price in the __NEAR__ area , visit __NAME__ @ __EATTYPE__ .</template>
+      <lexicalization>If you VP[Mood=Ind|Tense=Pres|VerbForm=Fin] be VP[Tense=Pres|VerbForm=Part] look for DT[Definite=Ind|PronType=Art] a meal at DT[Definite=Ind|PronType=Art] a bargain price in DT[Definite=Def|PronType=Art] the __NEAR__ _ _ area , VP[Mood=Imp|VerbForm=Fin] visit __NAME__ @ __EATTYPE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="277">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+        </sentence>
+      </structuring>
+      <text>Cocum @ coffee shop is a one star coffee shop located next to Express by Holiday Inn</text>
+      <template>__NAME__ @ __EATTYPE__ is a one star __EATTYPE__ located next to __NEAR__ by Holiday Inn</template>
+      <lexicalization>__NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a one star __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate next to __NEAR__ by Holiday In n</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="278">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+        </sentence>
+      </structuring>
+      <text>Cocum @ coffee shop near Express by Holiday Inn received a low  customer Rating.</text>
+      <template>__NAME__ @ __EATTYPE__ near __NEAR__ received a __CUSTOMER_RATING__ customer Rating .</template>
+      <lexicalization>__NAME__ @ __EATTYPE__ near __NEAR__ VP[Mood=Ind|Tense=Past|VerbForm=Fin] receive DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer Rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="279">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+        </sentence>
+      </structuring>
+      <text>Cocum, a coffee shop located near Express by Holiday Inn, has low customer ratings.</text>
+      <template>__NAME__ , a __EATTYPE__ located near __NEAR__ , has __CUSTOMER_RATING__ customer ratings .</template>
+      <lexicalization>__NAME__ , DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ , VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have __CUSTOMER_RATING__ customer ratings .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="280">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+        </sentence>
+      </structuring>
+      <text>Cocum is a coffee shop, near Express by Holiday Inn, with a low customer rating.</text>
+      <template>__NAME__ is a __EATTYPE__ , near __NEAR__ , with a __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ , near __NEAR__ , with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id7" ref="281">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+        </sentence>
+      </structuring>
+      <text>There is a one star coffee shop @ Cocum located near Express by Holiday Inn</text>
+      <template>There is a one star __EATTYPE__ @ __NAME__ located near __NEAR__ by Holiday Inn</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a one star __EATTYPE__ @ __NAME__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ by Holiday In n</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id41" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cocum"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+      <input attribute="near" tag="__NEAR__" value="Burger King"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="285">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+        </sentence>
+      </structuring>
+      <text>Near Burger King there is a highly rated pub named Cocum.</text>
+      <template>Near __NEAR__ there is a __CUSTOMER_RATING__ rated __EATTYPE__ named __NAME__ .</template>
+      <lexicalization>Near __NEAR__ there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="286">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+        </sentence>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+        </sentence>
+      </structuring>
+      <text>There is a pub named Cocum located near Burger King. This pub has a high customer rating.</text>
+      <template>There is a __EATTYPE__ named __NAME__ located near __NEAR__ . This __EATTYPE__ has a __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ __ .__ DT[Number=Sing|PronType=Dem] this __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id42" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cocum"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+      <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="287">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+        </sentence>
+      </structuring>
+      <text>pub located near Café Sicilia called Cocum with a high customer rating</text>
+      <template>__EATTYPE__ located near __NEAR__ called __NAME__ with a __CUSTOMER_RATING__ customer rating</template>
+      <lexicalization>__EATTYPE__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ VP[Tense=Past|VerbForm=Part] call __NAME__ with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="288">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+        </sentence>
+      </structuring>
+      <text>Near Café Sicilia is a high rated pub called Cocum</text>
+      <template>Near __NEAR__ is a __CUSTOMER_RATING__ rated __EATTYPE__ called __NAME__</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="289">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+        </sentence>
+      </structuring>
+      <text>pub @ Cocum has a high customer rating and is located near Café Sicilia.</text>
+      <template>__EATTYPE__ @ __NAME__ has a __CUSTOMER_RATING__ customer rating and is located near __NEAR__ .</template>
+      <lexicalization>__EATTYPE__ @ __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="290">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+        </sentence>
+        <sentence/>
+      </structuring>
+      <text>There is a pub named Cocum located near Café Sicilia. The customer rating is high.</text>
+      <template>There is a __EATTYPE__ named __NAME__ located near __NEAR__ . The customer rating is __CUSTOMER_RATING__ .</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ . DT[Definite=Def|PronType=Art] the customer rating VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be __CUSTOMER___ RATING .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="291">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+        </sentence>
+      </structuring>
+      <text>For a pub with high customer rating near Café Sicilia, try Cocum.</text>
+      <template>For a __EATTYPE__ with __CUSTOMER_RATING__ customer rating near __NEAR__ , try __NAME__ .</template>
+      <lexicalization>For DT[Definite=Ind|PronType=Art] a __EATTYPE__ with __CUSTOMER_RATING__ customer rating near __NEAR__ , VP[Mood=Imp|VerbForm=Fin] try __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="292">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+        </sentence>
+      </structuring>
+      <text>There is a high rated pub named Cocum near Café Sicilia.</text>
+      <template>There is a __CUSTOMER_RATING__ rated __EATTYPE__ named __NAME__ near __NEAR__ .</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id43" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cocum"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+      <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="293">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+          <input attribute="near" tag="__NEAR__" value="Café Sicilia"/>
+        </sentence>
+      </structuring>
+      <text>Cocum, a pub with a low customer rating, is near Café Sicilia.</text>
+      <template>__NAME__ , a __EATTYPE__ with a __CUSTOMER_RATING__ customer rating , is near __NEAR__ .</template>
+      <lexicalization>__NAME__ , DT[Definite=Ind|PronType=Art] a __EATTYPE__ with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating , VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id44" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cocum"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+      <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="294">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+        </sentence>
+      </structuring>
+      <text>Cocum is a pub near Express by Holiday Inn with food at low prices.</text>
+      <template>__NAME__ is a __EATTYPE__ near __NEAR__ with food at __CUSTOMER_RATING__ prices .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ near __NEAR__ with food at __CUSTOMER_RATING__ prices .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="295">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+      </structuring>
+      <text>If you are looking for a meal at a bargain price in the Express by Holiday Inn area, visit Cocum @ pub.</text>
+      <template>If you are looking for a meal at a bargain price in the __NEAR__ area , visit __NAME__ @ __EATTYPE__ .</template>
+      <lexicalization>If you VP[Mood=Ind|Tense=Pres|VerbForm=Fin] be VP[Tense=Pres|VerbForm=Part] look for DT[Definite=Ind|PronType=Art] a meal at DT[Definite=Ind|PronType=Art] a bargain price in DT[Definite=Def|PronType=Art] the __NEAR__ _ _ area , VP[Mood=Imp|VerbForm=Fin] visit __NAME__ @ __EATTYPE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="296">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+        </sentence>
+      </structuring>
+      <text>Cocum @ pub is a one star pub located next to Express by Holiday Inn</text>
+      <template>__NAME__ @ __EATTYPE__ is a one star __EATTYPE__ located next to __NEAR__ by Holiday Inn</template>
+      <lexicalization>__NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a one star __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate next to __NEAR__ by Holiday In n</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="297">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+        </sentence>
+      </structuring>
+      <text>Cocum @ pub near Express by Holiday Inn received a low  customer Rating.</text>
+      <template>__NAME__ @ __EATTYPE__ near __NEAR__ received a __CUSTOMER_RATING__ customer Rating .</template>
+      <lexicalization>__NAME__ @ __EATTYPE__ near __NEAR__ VP[Mood=Ind|Tense=Past|VerbForm=Fin] receive DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer Rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="298">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+        </sentence>
+      </structuring>
+      <text>Cocum, a pub located near Express by Holiday Inn, has low customer ratings.</text>
+      <template>__NAME__ , a __EATTYPE__ located near __NEAR__ , has __CUSTOMER_RATING__ customer ratings .</template>
+      <lexicalization>__NAME__ , DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ , VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have __CUSTOMER_RATING__ customer ratings .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="299">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+        </sentence>
+      </structuring>
+      <text>Cocum is a pub, near Express by Holiday Inn, with a low customer rating.</text>
+      <template>__NAME__ is a __EATTYPE__ , near __NEAR__ , with a __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ , near __NEAR__ , with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id7" ref="300">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+        </sentence>
+      </structuring>
+      <text>There is a one star pub @ Cocum located near Express by Holiday Inn</text>
+      <template>There is a one star __EATTYPE__ @ __NAME__ located near __NEAR__ by Holiday Inn</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a one star __EATTYPE__ @ __NAME__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ by Holiday In n</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id45" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Green Man"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="530">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+        </sentence>
+      </structuring>
+      <text>Rated 1 out of 5, Green Man @ coffee shop is near All Bar One.</text>
+      <template>Rated __CUSTOMER_RATING__ , __NAME__ @ __EATTYPE__ is near __NEAR__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] rate __CUSTOMER_RATING__ , __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="531">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+        </sentence>
+      </structuring>
+      <text>The Green Man @ coffee shop received a rating of 1 out of 5.  it is located near All Bar One.</text>
+      <template>The __NAME__ @ __EATTYPE__ received a rating of __CUSTOMER_RATING__ . __NAME__ is located near __NEAR__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Tense=Past|VerbForm=Fin] receive DT[Definite=Ind|PronType=Art] a rating of __CUSTOMER_RATING__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="532">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The coffee shop near All Bar One is Green Man. It has a customer rating of 1 out of 5.</text>
+      <template>The __EATTYPE__ near __NEAR__ is __NAME__ . __NAME__ has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __EATTYPE__ near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be __NAME__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="533">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+        </sentence>
+      </structuring>
+      <text>Near All Bar One you can find a coffee shop with a 1 out of 5 customer rating called Green Man.</text>
+      <template>Near __NEAR__ you can find a __EATTYPE__ with a __CUSTOMER_RATING__ customer rating called __NAME__ .</template>
+      <lexicalization>Near __NEAR__ you VP[VerbForm=Fin] can VP[VerbForm=Inf] find DT[Definite=Ind|PronType=Art] a __EATTYPE__ with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="534">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+        </sentence>
+        <sentence/>
+      </structuring>
+      <text>If you're nearby All Bar One, you can give the coffee shop @ Green Man a try, although it currently gets low ratings from other customers - a 1 out of 5.</text>
+      <template>If you ' re nearby __NEAR__ , you can give the __EATTYPE__ @ __NAME__ a try , although __NAME__ currently gets __CUSTOMER_RATING__ ratings from other customers - a __CUSTOMER_RATING__ .</template>
+      <lexicalization>If you ' re nearby __NEAR__ , you VP[VerbForm=Fin] can VP[VerbForm=Inf] give DT[Definite=Def|PronType=Art] the __EATTYPE__ @ __NAME__ DT[Definite=Ind|PronType=Art] a try , although __NAME__ currently VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] get __CUSTOMER_RATING__ ratings from other customers - a __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="535">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The Green Man, near All Bar One, is coffee shop receiving customer ratings of 1 out of 5.</text>
+      <template>The __NAME__ , near __NEAR__ , is __EATTYPE__ receiving customer ratings of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ , near __NEAR__ , VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be __EATTYPE__ VP[VerbForm=Ger] receive customer ratings of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id46" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Green Man"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="536">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>If you're looking for a great place to eat, try Green Man, a coffee shop near All Bar One with a customer rating of 3 out of 5 stars.</text>
+      <template>If you ' re looking for a great place to eat , try __NAME__ , a __EATTYPE__ near __NEAR__ with a customer rating of __CUSTOMER_RATING__ stars .</template>
+      <lexicalization>If you ' VP[Mood=Ind|Tense=Pres|VerbForm=Fin] be VP[VerbForm=Part] look for DT[Definite=Ind|PronType=Art] a great place to VP[VerbForm=Inf] eat , VP[Mood=Imp|VerbForm=Fin] try __NAME__ , DT[Definite=Ind|PronType=Art] a __EATTYPE__ near __NEAR__ with DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ stars .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="537">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>A coffee shop called Green Man is near All Bar One, Their customer rating is 3 out of 5.</text>
+      <template>A __EATTYPE__ called __NAME__ is near __NEAR__ , Their customer rating is __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ , Their customer rating VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="538">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+        </sentence>
+      </structuring>
+      <text>A coffee shop located by All Bar One called Green Man was rated 3 out of 5 by customers.</text>
+      <template>A __EATTYPE__ located by __NEAR__ called __NAME__ was rated __CUSTOMER_RATING__ by customers .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate by __NEAR__ VP[Tense=Past|VerbForm=Part] call __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] rate CUSTOMER_RATING by customers .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="539">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Located near All Bar One, the Green Man @ coffee shop has a customer rating of 3 out of 5.</text>
+      <template>Located near __NEAR__ , the __NAME__ @ __EATTYPE__ has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] locate near __NEAR__ , DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="540">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Near All Bar One is the Green Man @ coffee shop with a 3 out of 5 customer rating.</text>
+      <template>Near __NEAR__ is the __NAME__ @ __EATTYPE__ with a __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="541">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+        </sentence>
+      </structuring>
+      <text>Expect nothing less than the usual coffee shop quality at Green Man located by All Bar One.</text>
+      <template>Expect nothing less than the usual __EATTYPE__ quality at __NAME__ located by __NEAR__ .</template>
+      <lexicalization>VP[Mood=Imp|VerbForm=Fin] expect nothing less than DT[Definite=Def|PronType=Art] the usual __EATTYPE__ quality at __NAME__ VP[Tense=Past|VerbForm=Part] locate by __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id7" ref="542">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Located close to All Bar One, Green Man @ coffee shop has a 3 out of 5 rating.</text>
+      <template>Located close to __NEAR__ , __NAME__ @ __EATTYPE__ has a __CUSTOMER_RATING__ rating .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] locate close to __NEAR__ , __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ rating .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id47" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Green Man"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="543">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+        </sentence>
+      </structuring>
+      <text>Rated 1 out of 5, Green Man @ pub is near All Bar One.</text>
+      <template>Rated __CUSTOMER_RATING__ , __NAME__ @ __EATTYPE__ is near __NEAR__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] rate __CUSTOMER_RATING__ , __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="544">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+        </sentence>
+      </structuring>
+      <text>The Green Man @ pub received a rating of 1 out of 5.  it is located near All Bar One.</text>
+      <template>The __NAME__ @ __EATTYPE__ received a rating of __CUSTOMER_RATING__ . __NAME__ is located near __NEAR__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Tense=Past|VerbForm=Fin] receive DT[Definite=Ind|PronType=Art] a rating of __CUSTOMER_RATING__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="545">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The pub near All Bar One is Green Man. It has a customer rating of 1 out of 5.</text>
+      <template>The __EATTYPE__ near __NEAR__ is __NAME__ . __NAME__ has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __EATTYPE__ near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be __NAME__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="546">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+        </sentence>
+      </structuring>
+      <text>Near All Bar One you can find a pub with a 1 out of 5 customer rating called Green Man.</text>
+      <template>Near __NEAR__ you can find a __EATTYPE__ with a __CUSTOMER_RATING__ customer rating called __NAME__ .</template>
+      <lexicalization>Near __NEAR__ you VP[VerbForm=Fin] can VP[VerbForm=Inf] find DT[Definite=Ind|PronType=Art] a __EATTYPE__ with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="547">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+        </sentence>
+        <sentence/>
+      </structuring>
+      <text>If you're nearby All Bar One, you can give the pub @ Green Man a try, although it currently gets low ratings from other customers - a 1 out of 5.</text>
+      <template>If you ' re nearby __NEAR__ , you can give the __EATTYPE__ @ __NAME__ a try , although __NAME__ currently gets __CUSTOMER_RATING__ ratings from other customers - a __CUSTOMER_RATING__ .</template>
+      <lexicalization>If you ' re nearby __NEAR__ , you VP[VerbForm=Fin] can VP[VerbForm=Inf] give DT[Definite=Def|PronType=Art] the __EATTYPE__ @ __NAME__ DT[Definite=Ind|PronType=Art] a try , although __NAME__ currently VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] get __CUSTOMER_RATING__ ratings from other customers - a __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="548">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The Green Man, near All Bar One, is pub receiving customer ratings of 1 out of 5.</text>
+      <template>The __NAME__ , near __NEAR__ , is __EATTYPE__ receiving customer ratings of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ , near __NEAR__ , VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be __EATTYPE__ VP[VerbForm=Ger] receive customer ratings of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id48" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Green Man"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="549">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>If you're looking for a great place to eat, try Green Man, a pub near All Bar One with a customer rating of 3 out of 5 stars.</text>
+      <template>If you ' re looking for a great place to eat , try __NAME__ , a __EATTYPE__ near __NEAR__ with a customer rating of __CUSTOMER_RATING__ stars .</template>
+      <lexicalization>If you ' VP[Mood=Ind|Tense=Pres|VerbForm=Fin] be VP[VerbForm=Part] look for DT[Definite=Ind|PronType=Art] a great place to VP[VerbForm=Inf] eat , VP[Mood=Imp|VerbForm=Fin] try __NAME__ , DT[Definite=Ind|PronType=Art] a __EATTYPE__ near __NEAR__ with DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ stars .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="550">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>A pub called Green Man is near All Bar One, Their customer rating is 3 out of 5.</text>
+      <template>A __EATTYPE__ called __NAME__ is near __NEAR__ , Their customer rating is __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ , Their customer rating VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="551">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+        </sentence>
+      </structuring>
+      <text>A pub located by All Bar One called Green Man was rated 3 out of 5 by customers.</text>
+      <template>A __EATTYPE__ located by __NEAR__ called __NAME__ was rated __CUSTOMER_RATING__ by customers .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate by __NEAR__ VP[Tense=Past|VerbForm=Part] call __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] rate CUSTOMER_RATING by customers .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="552">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Located near All Bar One, the Green Man @ pub has a customer rating of 3 out of 5.</text>
+      <template>Located near __NEAR__ , the __NAME__ @ __EATTYPE__ has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] locate near __NEAR__ , DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="553">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Near All Bar One is the Green Man @ pub with a 3 out of 5 customer rating.</text>
+      <template>Near __NEAR__ is the __NAME__ @ __EATTYPE__ with a __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ with DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="554">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+        </sentence>
+      </structuring>
+      <text>Expect nothing less than the usual pub quality at Green Man located by All Bar One.</text>
+      <template>Expect nothing less than the usual __EATTYPE__ quality at __NAME__ located by __NEAR__ .</template>
+      <lexicalization>VP[Mood=Imp|VerbForm=Fin] expect nothing less than DT[Definite=Def|PronType=Art] the usual __EATTYPE__ quality at __NAME__ VP[Tense=Past|VerbForm=Part] locate by __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id7" ref="555">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Green Man"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="3 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Located close to All Bar One, Green Man @ pub has a 3 out of 5 rating.</text>
+      <template>Located close to __NEAR__ , __NAME__ @ __EATTYPE__ has a __CUSTOMER_RATING__ rating .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] locate close to __NEAR__ , __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ rating .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id49" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Strada"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="780">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The Strada is a coffee shop near All Bar One that has a customer rating of 1 out of 5.</text>
+      <template>The __NAME__ is a __EATTYPE__ near __NEAR__ that has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ near __NEAR__ that VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="781">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Near All Bar One is the Strada @ coffee shop with a customer rating of 1 out of 5.</text>
+      <template>Near __NEAR__ is the __NAME__ @ __EATTYPE__ with a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ with DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="782">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+        </sentence>
+      </structuring>
+      <text>A few steps of the All Bar One, there is a coffee shop called Strada with with negative feedback from its customers.</text>
+      <template>A few steps of the __NEAR__ , there is a __EATTYPE__ called __NAME__ with with negative feedback from its customers .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a few steps of DT[Definite=Def|PronType=Art] the __NEAR__ , there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ with with negative feedback from its customers .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="783">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+        </sentence>
+      </structuring>
+      <text>Rated 1 out of 5, Strada is a coffee shop close to All Bar One.</text>
+      <template>Rated __CUSTOMER_RATING__ , __NAME__ is a __EATTYPE__ close to __NEAR__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] rate __CUSTOMER_RATING__ , __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ close to __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id50" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Strada"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="Rainbow Vegetarian Café"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="784">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="near" tag="__NEAR__" value="Rainbow Vegetarian Café"/>
+        </sentence>
+      </structuring>
+      <text>The customer rated 1 out of 5, Strada is near Rainbow Vegetarian Café.</text>
+      <template>The customer rated __CUSTOMER_RATING__ , __NAME__ is near __NEAR__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the customer VP[Tense=Past|VerbForm=Part] rate CUSTOMER_RATING , __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="785">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+          <input attribute="near" tag="__NEAR__" value="Rainbow Vegetarian Café"/>
+        </sentence>
+      </structuring>
+      <text>A coffee shop named Strada has a customer rating of 1 out of 5 and is near Rainbow Vegetarian Café.</text>
+      <template>A __EATTYPE__ named __NAME__ has a customer rating of __CUSTOMER_RATING__ and is near __NEAR__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="786">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Rainbow Vegetarian Café"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+        </sentence>
+      </structuring>
+      <text>Near Rainbow Vegetarian Café, there is a coffee shop called Strada with customer rating 1 out of 5.</text>
+      <template>Near __NEAR__ , there is a __EATTYPE__ called __NAME__ with customer rating __CUSTOMER_RATING__ .</template>
+      <lexicalization>Near __NEAR__ , there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ with customer rating CUSTOMER_RATING .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id51" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Strada"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+      <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="787">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+        </sentence>
+      </structuring>
+      <text>Strada @ coffee shop has a low customer Rating and is located  near Express by Holiday Inn.</text>
+      <template>__NAME__ @ __EATTYPE__ has a __CUSTOMER_RATING__ customer Rating and is located near __NEAR__ .</template>
+      <lexicalization>__NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer Rating and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="788">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+        </sentence>
+      </structuring>
+      <text>Strada @ coffee shop has a low customer rating and is located near Express by Holiday Inn.</text>
+      <template>__NAME__ @ __EATTYPE__ has a __CUSTOMER_RATING__ customer rating and is located near __NEAR__ .</template>
+      <lexicalization>__NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="789">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+        </sentence>
+      </structuring>
+      <text>Strada is a one star coffee shop located near Express by Holiday Inn</text>
+      <template>__NAME__ is a one star __EATTYPE__ located near __NEAR__ by Holiday Inn</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a one star __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ by Holiday In n</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="790">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+        </sentence>
+      </structuring>
+      <text>Strada is a coffee shop, near Express by Holiday Inn. It has a low customer rating.</text>
+      <template>__NAME__ is a __EATTYPE__ , near __NEAR__ . __NAME__ has a __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ , near __NEAR__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="791">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+        </sentence>
+      </structuring>
+      <text>Strada @ coffee shop near Express by Holiday Inn has a low customer Rating</text>
+      <template>__NAME__ @ __EATTYPE__ near __NEAR__ has a __CUSTOMER_RATING__ customer Rating</template>
+      <lexicalization>__NAME__ @ __EATTYPE__ near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer Rating</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id52" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Strada"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="796">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>The Strada is a pub near All Bar One that has a customer rating of 1 out of 5.</text>
+      <template>The __NAME__ is a __EATTYPE__ near __NEAR__ that has a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ near __NEAR__ that VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="797">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+        </sentence>
+      </structuring>
+      <text>Near All Bar One is the Strada @ pub with a customer rating of 1 out of 5.</text>
+      <template>Near __NEAR__ is the __NAME__ @ __EATTYPE__ with a customer rating of __CUSTOMER_RATING__ .</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ with DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="798">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+        </sentence>
+      </structuring>
+      <text>A few steps of the All Bar One, there is a pub called Strada with with negative feedback from its customers.</text>
+      <template>A few steps of the __NEAR__ , there is a __EATTYPE__ called __NAME__ with with negative feedback from its customers .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a few steps of DT[Definite=Def|PronType=Art] the __NEAR__ , there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ with with negative feedback from its customers .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="799">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="All Bar One"/>
+        </sentence>
+      </structuring>
+      <text>Rated 1 out of 5, Strada is a pub close to All Bar One.</text>
+      <template>Rated __CUSTOMER_RATING__ , __NAME__ is a __EATTYPE__ close to __NEAR__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] rate __CUSTOMER_RATING__ , __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ close to __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id53" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Strada"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+      <input attribute="near" tag="__NEAR__" value="Rainbow Vegetarian Café"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="800">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="near" tag="__NEAR__" value="Rainbow Vegetarian Café"/>
+        </sentence>
+      </structuring>
+      <text>The customer rated 1 out of 5, Strada is near Rainbow Vegetarian Café.</text>
+      <template>The customer rated __CUSTOMER_RATING__ , __NAME__ is near __NEAR__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the customer VP[Tense=Past|VerbForm=Part] rate CUSTOMER_RATING , __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="801">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="1 out of 5"/>
+          <input attribute="near" tag="__NEAR__" value="Rainbow Vegetarian Café"/>
+        </sentence>
+      </structuring>
+      <text>A pub named Strada has a customer rating of 1 out of 5 and is near Rainbow Vegetarian Café.</text>
+      <template>A __EATTYPE__ named __NAME__ has a customer rating of __CUSTOMER_RATING__ and is near __NEAR__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a customer rating of __CUSTOMER_RATING__ and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="802">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Rainbow Vegetarian Café"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+        </sentence>
+      </structuring>
+      <text>Near Rainbow Vegetarian Café, there is a pub called Strada with customer rating 1 out of 5.</text>
+      <template>Near __NEAR__ , there is a __EATTYPE__ called __NAME__ with customer rating __CUSTOMER_RATING__ .</template>
+      <lexicalization>Near __NEAR__ , there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ with customer rating CUSTOMER_RATING .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id54" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Strada"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+      <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="803">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+        </sentence>
+      </structuring>
+      <text>Strada @ pub has a low customer Rating and is located  near Express by Holiday Inn.</text>
+      <template>__NAME__ @ __EATTYPE__ has a __CUSTOMER_RATING__ customer Rating and is located near __NEAR__ .</template>
+      <lexicalization>__NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer Rating and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="804">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+        </sentence>
+      </structuring>
+      <text>Strada @ pub has a low customer rating and is located near Express by Holiday Inn.</text>
+      <template>__NAME__ @ __EATTYPE__ has a __CUSTOMER_RATING__ customer rating and is located near __NEAR__ .</template>
+      <lexicalization>__NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating and VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="805">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+        </sentence>
+      </structuring>
+      <text>Strada is a one star pub located near Express by Holiday Inn</text>
+      <template>__NAME__ is a one star __EATTYPE__ located near __NEAR__ by Holiday Inn</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a one star __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ by Holiday In n</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="806">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+        </sentence>
+      </structuring>
+      <text>Strada is a pub, near Express by Holiday Inn. It has a low customer rating.</text>
+      <template>__NAME__ is a __EATTYPE__ , near __NEAR__ . __NAME__ has a __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ , near __NEAR__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="807">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Express by Holiday Inn"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="low"/>
+        </sentence>
+      </structuring>
+      <text>Strada @ pub near Express by Holiday Inn has a low customer Rating</text>
+      <template>__NAME__ @ __EATTYPE__ near __NEAR__ has a __CUSTOMER_RATING__ customer Rating</template>
+      <lexicalization>__NAME__ @ __EATTYPE__ near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer Rating</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id55" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Zizzi"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+      <input attribute="near" tag="__NEAR__" value="Burger King"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="4666">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+        </sentence>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+      </structuring>
+      <text>Close by Burger King, is Zizzi. An average rated coffee shop.</text>
+      <template>Close by __NEAR__ , is __NAME__ . An __CUSTOMER_RATING__ rated __EATTYPE__ .</template>
+      <lexicalization>Close by __NEAR__ , VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be __NAME__ __ .__ DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="4667">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+      </structuring>
+      <text>Near Burger King you can try the average @ Zizzi @ coffee shop.</text>
+      <template>Near __NEAR__ you can try the __CUSTOMER_RATING__ @ __NAME__ @ __EATTYPE__ .</template>
+      <lexicalization>Near __NEAR__ you VP[VerbForm=Fin] can VP[VerbForm=Inf] try DT[Definite=Def|PronType=Art] the __CUSTOMER_RATING__ @ __NAME__ @ __EATTYPE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="4668">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>Customers have rated the Zizzi @ coffee shop situated near Burger King as average.</text>
+      <template>Customers have rated the __NAME__ @ __EATTYPE__ situated near __NEAR__ as __CUSTOMER_RATING__ .</template>
+      <lexicalization>Customers VP[Mood=Ind|Tense=Pres|VerbForm=Fin] have VP[Tense=Past|VerbForm=Part] rate DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Tense=Past|VerbForm=Part] situate near __NEAR__ as __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="4669">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+        </sentence>
+      </structuring>
+      <text>An average rated coffee shop called Zizzi is nearby Burger King.</text>
+      <template>An __CUSTOMER_RATING__ rated __EATTYPE__ called __NAME__ is nearby __NEAR__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be nearby __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="4670">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>Customers rate Zizzi @ coffee shop, near Burger King, average.</text>
+      <template>Customers rate __NAME__ @ __EATTYPE__ , near __NEAR__ , __CUSTOMER_RATING__ .</template>
+      <lexicalization>Customers rate __NAME__ @ __EATTYPE__ , near __NEAR__ , __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="4671">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>The Zizzi @ coffee shop is located near Burger King.  It has an average customer rating.</text>
+      <template>The __NAME__ @ __EATTYPE__ is located near __NEAR__ . __NAME__ has an __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id56" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Zizzi"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+      <input attribute="near" tag="__NEAR__" value="Burger King"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="4672">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+        </sentence>
+      </structuring>
+      <text>Near Burger King is a highly rated coffee shop called Zizzi.</text>
+      <template>Near __NEAR__ is a __CUSTOMER_RATING__ rated __EATTYPE__ called __NAME__ .</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="4673">
+      <structuring>
+        <sentence/>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+      </structuring>
+      <text>Located near Burger King, Zizzi is a high-rated coffee shop.</text>
+      <template>Located near __NEAR__ , __NAME__ is a __CUSTOMER_RATING__ __EATTYPE__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] locate near __NEAR__ , __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ __EATTYPE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="4674">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+        </sentence>
+      </structuring>
+      <text>The Zizzi is a coffee shop near Burger King. It has a high customer rating.</text>
+      <template>The __NAME__ is a __EATTYPE__ near __NEAR__ . __NAME__ has a __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ near __NEAR__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="4675">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+      </structuring>
+      <text>Situated nearby Burger King, is the highly rated Zizzi @ coffee shop.</text>
+      <template>Situated nearby __NEAR__ , is the __CUSTOMER_RATING__ rated __NAME__ @ __EATTYPE__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] situate nearby __NEAR__ , VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Def|PronType=Art] the __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __NAME__ @ __EATTYPE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="4676">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+        </sentence>
+      </structuring>
+      <text>For a coffee shop highly-rated by customers, head to Zizzi near Burger King.</text>
+      <template>For a __EATTYPE__ __CUSTOMER_RATING__ly - rated by customers , head to __NAME__ near __NEAR__ .</template>
+      <lexicalization>For DT[Definite=Ind|PronType=Art] a __EATTYPE__ __CUSTOMER_RATINGly__ - VP[Tense=Past|VerbForm=Part] rate by customers , head to __NAME__ near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id57" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Zizzi"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+      <input attribute="near" tag="__NEAR__" value="Burger King"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="4682">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+        </sentence>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+      </structuring>
+      <text>Close by Burger King, is Zizzi. An average rated pub.</text>
+      <template>Close by __NEAR__ , is __NAME__ . An __CUSTOMER_RATING__ rated __EATTYPE__ .</template>
+      <lexicalization>Close by __NEAR__ , VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be __NAME__ __ .__ DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="4683">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+      </structuring>
+      <text>Near Burger King you can try the average @ Zizzi @ pub.</text>
+      <template>Near __NEAR__ you can try the __CUSTOMER_RATING__ @ __NAME__ @ __EATTYPE__ .</template>
+      <lexicalization>Near __NEAR__ you VP[VerbForm=Fin] can VP[VerbForm=Inf] try DT[Definite=Def|PronType=Art] the __CUSTOMER_RATING__ @ __NAME__ @ __EATTYPE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="4684">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>Customers have rated the Zizzi @ pub situated near Burger King as average.</text>
+      <template>Customers have rated the __NAME__ @ __EATTYPE__ situated near __NEAR__ as __CUSTOMER_RATING__ .</template>
+      <lexicalization>Customers VP[Mood=Ind|Tense=Pres|VerbForm=Fin] have VP[Tense=Past|VerbForm=Part] rate DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Tense=Past|VerbForm=Part] situate near __NEAR__ as __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="4685">
+      <structuring>
+        <sentence>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+        </sentence>
+      </structuring>
+      <text>An average rated pub called Zizzi is nearby Burger King.</text>
+      <template>An __CUSTOMER_RATING__ rated __EATTYPE__ called __NAME__ is nearby __NEAR__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be nearby __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="4686">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>Customers rate Zizzi @ pub, near Burger King, average.</text>
+      <template>Customers rate __NAME__ @ __EATTYPE__ , near __NEAR__ , __CUSTOMER_RATING__ .</template>
+      <lexicalization>Customers rate __NAME__ @ __EATTYPE__ , near __NEAR__ , __CUSTOMER_RATING__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id6" ref="4687">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="average"/>
+        </sentence>
+      </structuring>
+      <text>The Zizzi @ pub is located near Burger King.  It has an average customer rating.</text>
+      <template>The __NAME__ @ __EATTYPE__ is located near __NEAR__ . __NAME__ has an __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate near __NEAR__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id58" size="4">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Zizzi"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+      <input attribute="near" tag="__NEAR__" value="Burger King"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="4688">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+        </sentence>
+      </structuring>
+      <text>Near Burger King is a highly rated pub called Zizzi.</text>
+      <template>Near __NEAR__ is a __CUSTOMER_RATING__ rated __EATTYPE__ called __NAME__ .</template>
+      <lexicalization>Near __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="4689">
+      <structuring>
+        <sentence/>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+      </structuring>
+      <text>Located near Burger King, Zizzi is a high-rated pub.</text>
+      <template>Located near __NEAR__ , __NAME__ is a __CUSTOMER_RATING__ __EATTYPE__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] locate near __NEAR__ , __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ __EATTYPE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="4690">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+        </sentence>
+      </structuring>
+      <text>The Zizzi is a pub near Burger King. It has a high customer rating.</text>
+      <template>The __NAME__ is a __EATTYPE__ near __NEAR__ . __NAME__ has a __CUSTOMER_RATING__ customer rating .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ near __NEAR__ . __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] have DT[Definite=Ind|PronType=Art] a __CUSTOMER_RATING__ customer rating .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="4691">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+          <input attribute="customer rating" tag="__CUSTOMER_RATING__" value="high"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+      </structuring>
+      <text>Situated nearby Burger King, is the highly rated Zizzi @ pub.</text>
+      <template>Situated nearby __NEAR__ , is the __CUSTOMER_RATING__ rated __NAME__ @ __EATTYPE__ .</template>
+      <lexicalization>VP[Tense=Past|VerbForm=Part] situate nearby __NEAR__ , VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Def|PronType=Art] the __CUSTOMER_RATING__ VP[Tense=Past|VerbForm=Part] rate __NAME__ @ __EATTYPE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id5" ref="4692">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="near" tag="__NEAR__" value="Burger King"/>
+        </sentence>
+      </structuring>
+      <text>For a pub highly-rated by customers, head to Zizzi near Burger King.</text>
+      <template>For a __EATTYPE__ __CUSTOMER_RATING__ly - rated by customers , head to __NAME__ near __NEAR__ .</template>
+      <lexicalization>For DT[Definite=Ind|PronType=Art] a __EATTYPE__ __CUSTOMER_RATINGly__ - VP[Tense=Past|VerbForm=Part] rate by customers , head to __NAME__ near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+</entries>

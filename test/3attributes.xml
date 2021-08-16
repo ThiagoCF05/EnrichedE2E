@@ -1,0 +1,908 @@
+<?xml version="1.0" ?>
+<entries>
+  <entry eid="Id1" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="area" tag="__AREA__" value="city centre"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="2">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="area" tag="__AREA__" value="city centre"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+        </sentence>
+      </structuring>
+      <text>A coffee shop in the city centre area called Blue Spice.</text>
+      <template>A __EATTYPE__ in the __AREA__ area called __NAME__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ in DT[Definite=Def|PronType=Art] the __AREA__ area VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="3">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="area" tag="__AREA__" value="city centre"/>
+        </sentence>
+      </structuring>
+      <text>Blue Spice is a coffee shop in city centre.</text>
+      <template>__NAME__ is a __EATTYPE__ in __AREA__ .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ in __AREA__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id2" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="area" tag="__AREA__" value="riverside"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="4">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+        </sentence>
+      </structuring>
+      <text>There is a coffee shop @ Blue Spice in the riverside area.</text>
+      <template>There is a __EATTYPE__ @ __NAME__ in the __AREA__ area .</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ @ __NAME__ in DT[Definite=Def|PronType=Art] the __AREA__ area .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="5">
+      <structuring>
+        <sentence>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+        </sentence>
+      </structuring>
+      <text>At the riverside, there is a coffee shop called The Blue Spice.</text>
+      <template>At the __AREA__ , there is a __EATTYPE__ called The __NAME__ .</template>
+      <lexicalization>At DT[Definite=Def|PronType=Art] the __AREA__ , there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call DT[Definite=Def|PronType=Art] the __NAME__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id3" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="area" tag="__AREA__" value="city centre"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="17">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="area" tag="__AREA__" value="city centre"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+        </sentence>
+      </structuring>
+      <text>A pub in the city centre area called Blue Spice.</text>
+      <template>A __EATTYPE__ in the __AREA__ area called __NAME__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ in DT[Definite=Def|PronType=Art] the __AREA__ area VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="18">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="area" tag="__AREA__" value="city centre"/>
+        </sentence>
+      </structuring>
+      <text>Blue Spice is a pub in city centre.</text>
+      <template>__NAME__ is a __EATTYPE__ in __AREA__ .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ in __AREA__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id4" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="area" tag="__AREA__" value="riverside"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="19">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+        </sentence>
+      </structuring>
+      <text>There is a pub @ Blue Spice in the riverside area.</text>
+      <template>There is a __EATTYPE__ @ __NAME__ in the __AREA__ area .</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ @ __NAME__ in DT[Definite=Def|PronType=Art] the __AREA__ area .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="20">
+      <structuring>
+        <sentence>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Blue Spice"/>
+        </sentence>
+      </structuring>
+      <text>At the riverside, there is a pub called The Blue Spice.</text>
+      <template>At the __AREA__ , there is a __EATTYPE__ called The __NAME__ .</template>
+      <lexicalization>At DT[Definite=Def|PronType=Art] the __AREA__ , there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call DT[Definite=Def|PronType=Art] the __NAME__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id5" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Clowns"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="247">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+      </structuring>
+      <text>Close to The Sorrento you can find Clowns @ coffee shop.</text>
+      <template>Close to The Sorre you can find __NAME__ @ __EATTYPE__ .</template>
+      <lexicalization>Close to DT[Definite=Def|PronType=Art] the Sorre you VP[VerbForm=Fin] can VP[VerbForm=Inf] find __NAME__ @ __EATTYPE__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id6" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Clowns"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="265">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+          <input attribute="name" tag="__NAME__" value="Clowns"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+      </structuring>
+      <text>Close to The Sorrento you can find Clowns @ pub.</text>
+      <template>Close to __NEAR__ Sorre you can find __NAME__ @ __EATTYPE__ .</template>
+      <lexicalization>Close to __NEAR__ Sorre you VP[VerbForm=Fin] can VP[VerbForm=Inf] find __NAME__ @ __EATTYPE__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id7" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cocum"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="near" tag="__NEAR__" value="The Rice Boat"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="282">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="The Rice Boat"/>
+        </sentence>
+      </structuring>
+      <text>Cocum is a coffee shop located a few steps of The Rice Boat.</text>
+      <template>__NAME__ is a __EATTYPE__ located a few steps of __NEAR__ .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate DT[Definite=Ind|PronType=Art] a few steps of __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="283">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="The Rice Boat"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+        </sentence>
+      </structuring>
+      <text>For a coffee shop near The Rice Boat, try Cocum.</text>
+      <template>For a __EATTYPE__ near __NEAR__ , try __NAME__ .</template>
+      <lexicalization>For DT[Definite=Ind|PronType=Art] a __EATTYPE__ near __NEAR__ , VP[Mood=Imp|VerbForm=Fin] try __NAME__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id8" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cocum"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="284">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+        </sentence>
+      </structuring>
+      <text>Cocum is a coffee shop by The Sorrento.</text>
+      <template>__NAME__ is a __EATTYPE__ by __NEAR__ .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ by __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id9" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cocum"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="near" tag="__NEAR__" value="The Rice Boat"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="301">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="The Rice Boat"/>
+        </sentence>
+      </structuring>
+      <text>Cocum is a pub located a few steps of The Rice Boat.</text>
+      <template>__NAME__ is a __EATTYPE__ located a few steps of __NEAR__ .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate DT[Definite=Ind|PronType=Art] a few steps of __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="302">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="The Rice Boat"/>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+        </sentence>
+      </structuring>
+      <text>For a pub near The Rice Boat, try Cocum.</text>
+      <template>For a __EATTYPE__ near __NEAR__ , try __NAME__ .</template>
+      <lexicalization>For DT[Definite=Ind|PronType=Art] a __EATTYPE__ near __NEAR__ , VP[Mood=Imp|VerbForm=Fin] try __NAME__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id10" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cocum"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="303">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Cocum"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+        </sentence>
+      </structuring>
+      <text>Cocum is a pub by The Sorrento.</text>
+      <template>__NAME__ is a __EATTYPE__ by __NEAR__ .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ by __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id11" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cotto"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="near" tag="__NEAR__" value="The Bakers"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="304">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Bakers"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Cotto"/>
+        </sentence>
+      </structuring>
+      <text>next to The Bakers resides a coffee shop by the name of Cotto.</text>
+      <template>next to __NEAR__ resides a __EATTYPE__ by the name of __NAME__ .</template>
+      <lexicalization>next to __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] reside DT[Definite=Ind|PronType=Art] a __EATTYPE__ by DT[Definite=Def|PronType=Art] the name of __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="305">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Cotto"/>
+          <input attribute="near" tag="__NEAR__" value="The Bakers"/>
+        </sentence>
+      </structuring>
+      <text>A coffee shop called Cotto is situated near The Bakers.</text>
+      <template>A __EATTYPE__ called __NAME__ is situated near __NEAR__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] situate near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id12" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Cotto"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="near" tag="__NEAR__" value="The Bakers"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="306">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Bakers"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Cotto"/>
+        </sentence>
+      </structuring>
+      <text>next to The Bakers resides a pub by the name of Cotto.</text>
+      <template>next to __NEAR__ resides a __EATTYPE__ by the name of __NAME__ .</template>
+      <lexicalization>next to __NEAR__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] reside DT[Definite=Ind|PronType=Art] a __EATTYPE__ by DT[Definite=Def|PronType=Art] the name of __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="307">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Cotto"/>
+          <input attribute="near" tag="__NEAR__" value="The Bakers"/>
+        </sentence>
+      </structuring>
+      <text>A pub called Cotto is situated near The Bakers.</text>
+      <template>A __EATTYPE__ called __NAME__ is situated near __NEAR__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] situate near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id13" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Giraffe"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="near" tag="__NEAR__" value="The Bakers"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="308">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Giraffe"/>
+          <input attribute="near" tag="__NEAR__" value="The Bakers"/>
+        </sentence>
+      </structuring>
+      <text>A coffee shop named Giraffe is near The Bakers.</text>
+      <template>A __EATTYPE__ named __NAME__ is near __NEAR__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="309">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Giraffe"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Bakers"/>
+        </sentence>
+      </structuring>
+      <text>Giraffe is a coffee shop found near The Bakers.</text>
+      <template>__NAME__ is a __EATTYPE__ found near __NEAR__ .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] find near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id14" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Giraffe"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="near" tag="__NEAR__" value="The Rice Boat"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="310">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Rice Boat"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Giraffe"/>
+        </sentence>
+      </structuring>
+      <text>Near The Rice Boat you can visit coffee shop called Giraffe.</text>
+      <template>Near __NEAR__ you can visit __EATTYPE__ called __NAME__ .</template>
+      <lexicalization>Near __NEAR__ you VP[VerbForm=Fin] can VP[VerbForm=Inf] visit __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="311">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Rice Boat"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Giraffe"/>
+        </sentence>
+      </structuring>
+      <text>Near to The Rice Boat there is a coffee shop called Giraffe.</text>
+      <template>Near to __NEAR__ there is a __EATTYPE__ called __NAME__ .</template>
+      <lexicalization>Near to __NEAR__ there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id15" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Giraffe"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="near" tag="__NEAR__" value="The Bakers"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="419">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Giraffe"/>
+          <input attribute="near" tag="__NEAR__" value="The Bakers"/>
+        </sentence>
+      </structuring>
+      <text>A pub named Giraffe is near The Bakers.</text>
+      <template>A __EATTYPE__ named __NAME__ is near __NEAR__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be near __NEAR__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="420">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Giraffe"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Bakers"/>
+        </sentence>
+      </structuring>
+      <text>Giraffe is a pub found near The Bakers.</text>
+      <template>__NAME__ is a __EATTYPE__ found near __NEAR__ .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] find near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id16" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Giraffe"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="near" tag="__NEAR__" value="The Rice Boat"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="421">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Rice Boat"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Giraffe"/>
+        </sentence>
+      </structuring>
+      <text>Near The Rice Boat you can visit pub called Giraffe.</text>
+      <template>Near __NEAR__ you can visit __EATTYPE__ called __NAME__ .</template>
+      <lexicalization>Near __NEAR__ you VP[VerbForm=Fin] can VP[VerbForm=Inf] visit __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="422">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Rice Boat"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Giraffe"/>
+        </sentence>
+      </structuring>
+      <text>Near to The Rice Boat there is a pub called Giraffe.</text>
+      <template>Near to __NEAR__ there is a __EATTYPE__ called __NAME__ .</template>
+      <lexicalization>Near to __NEAR__ there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id17" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Loch Fyne"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="area" tag="__AREA__" value="riverside"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="770">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Loch Fyne"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+        </sentence>
+      </structuring>
+      <text>The Loch Fyne is a coffee shop at the riverside.</text>
+      <template>The __NAME__ is a __EATTYPE__ at the __AREA__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ at DT[Definite=Def|PronType=Art] the __AREA__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="771">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Loch Fyne"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+        </sentence>
+      </structuring>
+      <text>The Loch Fyne is a coffee shop in the riverside area of the city.</text>
+      <template>The __NAME__ is a __EATTYPE__ in the __AREA__ area of the city .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ in DT[Definite=Def|PronType=Art] the __AREA__ area of DT[Definite=Def|PronType=Art] the city .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="772">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Loch Fyne"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+      </structuring>
+      <text>The Loch Fyne @ coffee shop is located on the bank of the river.</text>
+      <template>The __NAME__ @ __EATTYPE__ is located on the bank of the river .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate on DT[Definite=Def|PronType=Art] the bank of DT[Definite=Def|PronType=Art] the river .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id18" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Loch Fyne"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="area" tag="__AREA__" value="riverside"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="773">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Loch Fyne"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+        </sentence>
+      </structuring>
+      <text>The Loch Fyne is a pub at the riverside.</text>
+      <template>The __NAME__ is a __EATTYPE__ at the __AREA__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ at DT[Definite=Def|PronType=Art] the __AREA__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="774">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Loch Fyne"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+        </sentence>
+      </structuring>
+      <text>The Loch Fyne is a pub in the riverside area of the city.</text>
+      <template>The __NAME__ is a __EATTYPE__ in the __AREA__ area of the city .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ in DT[Definite=Def|PronType=Art] the __AREA__ area of DT[Definite=Def|PronType=Art] the city .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="775">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Loch Fyne"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+      </structuring>
+      <text>The Loch Fyne @ pub is located on the bank of the river.</text>
+      <template>The __NAME__ @ __EATTYPE__ is located on the bank of the river .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ @ __EATTYPE__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate on DT[Definite=Def|PronType=Art] the bank of DT[Definite=Def|PronType=Art] the river .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id19" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Strada"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="area" tag="__AREA__" value="city centre"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="776">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="area" tag="__AREA__" value="city centre"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+        </sentence>
+      </structuring>
+      <text>There is a coffee shop in the city centre called the Strada.</text>
+      <template>There is a __EATTYPE__ in the __AREA__ called the __NAME__ .</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ in DT[Definite=Def|PronType=Art] the __AREA__ VP[Tense=Past|VerbForm=Part] call DT[Definite=Def|PronType=Art] the __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="777">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="area" tag="__AREA__" value="city centre"/>
+        </sentence>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+      </structuring>
+      <text>The Strada is a city centre area coffee shop.</text>
+      <template>The __NAME__ is a __AREA__ area __EATTYPE__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __AREA__ area __EATTYPE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="778">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+      </structuring>
+      <text>The Strada is a coffee shop located in the centre of the city.</text>
+      <template>The __NAME__ is a __EATTYPE__ located in the centre of the city .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate in DT[Definite=Def|PronType=Art] the centre of DT[Definite=Def|PronType=Art] the city .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="779">
+      <structuring>
+        <sentence>
+          <input attribute="area" tag="__AREA__" value="city centre"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+        </sentence>
+      </structuring>
+      <text>In city centre, there is a coffee shop called Strada.</text>
+      <template>In __AREA__ , there is a __EATTYPE__ called __NAME__ .</template>
+      <lexicalization>In __AREA__ , there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id20" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Strada"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="area" tag="__AREA__" value="city centre"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="792">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="area" tag="__AREA__" value="city centre"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+        </sentence>
+      </structuring>
+      <text>There is a pub in the city centre called the Strada.</text>
+      <template>There is a __EATTYPE__ in the __AREA__ called the __NAME__ .</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ in DT[Definite=Def|PronType=Art] the __AREA__ VP[Tense=Past|VerbForm=Part] call DT[Definite=Def|PronType=Art] the __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="793">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="area" tag="__AREA__" value="city centre"/>
+        </sentence>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+      </structuring>
+      <text>The Strada is a city centre area pub.</text>
+      <template>The __NAME__ is a __AREA__ area __EATTYPE__ .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __AREA__ area __EATTYPE__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="794">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+      </structuring>
+      <text>The Strada is a pub located in the centre of the city.</text>
+      <template>The __NAME__ is a __EATTYPE__ located in the centre of the city .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate in DT[Definite=Def|PronType=Art] the centre of DT[Definite=Def|PronType=Art] the city .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="795">
+      <structuring>
+        <sentence>
+          <input attribute="area" tag="__AREA__" value="city centre"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Strada"/>
+        </sentence>
+      </structuring>
+      <text>In city centre, there is a pub called Strada.</text>
+      <template>In __AREA__ , there is a __EATTYPE__ called __NAME__ .</template>
+      <lexicalization>In __AREA__ , there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id21" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Wildwood"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="area" tag="__AREA__" value="riverside"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="4463">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Wildwood"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+        </sentence>
+      </structuring>
+      <text>A coffee shop named Wildwood is located at  the riverside.</text>
+      <template>A __EATTYPE__ named __NAME__ is located at the __AREA__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate at DT[Definite=Def|PronType=Art] the __AREA__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="4464">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Wildwood"/>
+        </sentence>
+      </structuring>
+      <text>A coffee shop near the river is Wildwood.</text>
+      <template>A __EATTYPE__ near the river is __NAME__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ near DT[Definite=Def|PronType=Art] the river VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="4465">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Wildwood"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+        </sentence>
+      </structuring>
+      <text>Wildwood is a coffee shop located in riverside</text>
+      <template>__NAME__ is a __EATTYPE__ located in __AREA__</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate in __AREA__</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="4466">
+      <structuring>
+        <sentence>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Wildwood"/>
+        </sentence>
+      </structuring>
+      <text>In the riverside area there is a coffee shop named Wildwood.</text>
+      <template>In the __AREA__ area there is a __EATTYPE__ named __NAME__ .</template>
+      <lexicalization>In DT[Definite=Def|PronType=Art] the __AREA__ area there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id22" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Wildwood"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="area" tag="__AREA__" value="riverside"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="4467">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Wildwood"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+        </sentence>
+      </structuring>
+      <text>A pub named Wildwood is located at  the riverside.</text>
+      <template>A __EATTYPE__ named __NAME__ is located at the __AREA__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be VP[Tense=Past|VerbForm=Part|Voice=Pass] locate at DT[Definite=Def|PronType=Art] the __AREA__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="4468">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Wildwood"/>
+        </sentence>
+      </structuring>
+      <text>A pub near the river is Wildwood.</text>
+      <template>A __EATTYPE__ near the river is __NAME__ .</template>
+      <lexicalization>DT[Definite=Ind|PronType=Art] a __EATTYPE__ near DT[Definite=Def|PronType=Art] the river VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be __NAME__ .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="4469">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Wildwood"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+        </sentence>
+      </structuring>
+      <text>Wildwood is a pub located in riverside</text>
+      <template>__NAME__ is a __EATTYPE__ located in __AREA__</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] locate in __AREA__</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id4" ref="4470">
+      <structuring>
+        <sentence>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Wildwood"/>
+        </sentence>
+      </structuring>
+      <text>In the riverside area there is a pub named Wildwood.</text>
+      <template>In the __AREA__ area there is a __EATTYPE__ named __NAME__ .</template>
+      <lexicalization>In DT[Definite=Def|PronType=Art] the __AREA__ area there VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id23" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Zizzi"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="area" tag="__AREA__" value="riverside"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="4663">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+      </structuring>
+      <text>The Zizzi is a coffee shop along the river.</text>
+      <template>The __NAME__ is a __EATTYPE__ along the river .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ along DT[Definite=Def|PronType=Art] the river .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="4664">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+        </sentence>
+      </structuring>
+      <text>You can find a coffee shop named Zizzi in the riverside area.</text>
+      <template>You can find a __EATTYPE__ named __NAME__ in the __AREA__ area .</template>
+      <lexicalization>You VP[VerbForm=Fin] can VP[VerbForm=Inf] find DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ in DT[Definite=Def|PronType=Art] the __AREA__ area .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="4665">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+        </sentence>
+      </structuring>
+      <text>Zizzi is a riverside @ coffee shop.</text>
+      <template>__NAME__ is a __AREA__ @ __EATTYPE__ .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __AREA__ @ __EATTYPE__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id24" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Zizzi"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+      <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="4677">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+        </sentence>
+      </structuring>
+      <text>Close to The Sorrento you will be able to find a coffee shop called Zizzi</text>
+      <template>Close to __NEAR__ you will be able to find a __EATTYPE__ called __NAME__</template>
+      <lexicalization>Close to __NEAR__ you VP[VerbForm=Fin] will VP[VerbForm=Inf] be able to VP[VerbForm=Inf] find DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="4678">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="coffee shop"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+        </sentence>
+      </structuring>
+      <text>There is a coffee shop  called Zizzi located near The Sorrento.</text>
+      <template>There is a __EATTYPE__ called __NAME__ located near __NEAR__ .</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id25" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Zizzi"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="area" tag="__AREA__" value="riverside"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="4679">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+      </structuring>
+      <text>The Zizzi is a pub along the river.</text>
+      <template>The __NAME__ is a __EATTYPE__ along the river .</template>
+      <lexicalization>DT[Definite=Def|PronType=Art] the __NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ along DT[Definite=Def|PronType=Art] the river .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="4680">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+        </sentence>
+      </structuring>
+      <text>You can find a pub named Zizzi in the riverside area.</text>
+      <template>You can find a __EATTYPE__ named __NAME__ in the __AREA__ area .</template>
+      <lexicalization>You VP[VerbForm=Fin] can VP[VerbForm=Inf] find DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] name __NAME__ in DT[Definite=Def|PronType=Art] the __AREA__ area .</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id3" ref="4681">
+      <structuring>
+        <sentence>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+          <input attribute="area" tag="__AREA__" value="riverside"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+        </sentence>
+      </structuring>
+      <text>Zizzi is a riverside @ pub.</text>
+      <template>__NAME__ is a __AREA__ @ __EATTYPE__ .</template>
+      <lexicalization>__NAME__ VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __AREA__ @ __EATTYPE__ .</lexicalization>
+    </target>
+  </entry>
+  <entry eid="Id26" size="3">
+    <source>
+      <input attribute="name" tag="__NAME__" value="Zizzi"/>
+      <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+      <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+    </source>
+    <target annotator="4" comment="good" lid="Id1" ref="4693">
+      <structuring>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+        </sentence>
+      </structuring>
+      <text>Close to The Sorrento you will be able to find a pub called Zizzi</text>
+      <template>Close to __NEAR__ you will be able to find a __EATTYPE__ called __NAME__</template>
+      <lexicalization>Close to __NEAR__ you VP[VerbForm=Fin] will VP[VerbForm=Inf] be able to VP[VerbForm=Inf] find DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__</lexicalization>
+    </target>
+    <target annotator="4" comment="good" lid="Id2" ref="4694">
+      <structuring>
+        <sentence>
+          <input attribute="eatType" tag="__EATTYPE__" value="pub"/>
+          <input attribute="name" tag="__NAME__" value="Zizzi"/>
+        </sentence>
+        <sentence>
+          <input attribute="near" tag="__NEAR__" value="The Sorrento"/>
+        </sentence>
+      </structuring>
+      <text>There is a pub  called Zizzi located near The Sorrento.</text>
+      <template>There is a __EATTYPE__ called __NAME__ located near __NEAR__ .</template>
+      <lexicalization>There VP[Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin] be DT[Definite=Ind|PronType=Art] a __EATTYPE__ VP[Tense=Past|VerbForm=Part] call __NAME__ VP[Tense=Past|VerbForm=Part] locate near __NEAR__ .</lexicalization>
+    </target>
+  </entry>
+</entries>
